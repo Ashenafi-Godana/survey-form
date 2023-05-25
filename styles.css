@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(27, 27, 50, 0.8);
+    color: rgb(241, 233, 233);
+    font-family: 'Poppins', sans-serif; 
+    background-image: url(img/survey-form-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+form {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 658px;
+    padding: 30px;
+    background-color: #1b1b32;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+}
+
+label {
+    display: block;
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+}
+
+h1, #description {
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 40px;
+    font-weight: 400px;
+}
+
+
+#description {
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.block-input {
+    display: block;
+    margin-top: 10px;
+}
+
+.inline-element {
+    display: inline-bl
+}
+
+.smaller-text {
+    font-size: 15px;
+}
+
+.text-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+input[type=checkbox], input[type=radio] {
+    border: 0;
+    width: 5%;
+    height: 1.2em;
+}
+
+::-webkit-input-placeholder {
+    font-size: 16px;
+    color: grey;
+}
+
+#comments {
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 0.8rem;
+}
+
+button[type=submit] {
+    background-color: #37af65;
+    padding: 12px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+ label select option span {
+    color: grey;
+    font-size: 16px;
+}
